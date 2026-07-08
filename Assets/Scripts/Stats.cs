@@ -12,5 +12,8 @@ public class Stats : MonoBehaviour
     public int milkPerClick = 1;  
 
     [Header("Time State")]
-    public string dayNightCycle = "Day"; 
+    public string dayNightCycle = "Day";
+    private void Start() {
+        print("сигма");  
+    } 
 }
