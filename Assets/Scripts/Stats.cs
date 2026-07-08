@@ -3,7 +3,7 @@ using UnityEngine;
 public class Stats : MonoBehaviour
 {
     [Header("Mana Settings")]
-    public float mana = 100f;
+    public float mana = 101f;
     public float maxMana = 100f;
     public float manaRSpeed = 2f;
 
